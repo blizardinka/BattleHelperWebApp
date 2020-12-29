@@ -1,8 +1,5 @@
 <h3 align="left">Battle Helper Webb App</h3>
 
-<p align="left"> It helps to make the better choise during the game and give an advantage.
-</p>
-
 ## 📝 Table of Contents
 
 - [About](#about)
@@ -11,7 +8,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+The program will processes the data during the game and show it on web site.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
