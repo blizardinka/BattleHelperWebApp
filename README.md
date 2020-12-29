@@ -1,6 +1,6 @@
-<h3 align="center">Battle Helper Webb App</h3>
+<h3 align="left">Battle Helper Webb App</h3>
 
-<p align="center"> It helps to make the better choise during the game and give an advantage.
+<p align="left"> It helps to make the better choise during the game and give an advantage.
 </p>
 
 ## 📝 Table of Contents
