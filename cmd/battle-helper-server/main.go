@@ -6,18 +6,17 @@ import (
 	// "log"
 	// "os"
 
-	"github.com/blizardinka/BattleHelperWebApp/internal"
-	"github.com/blizardinka/BattleHelperWebApp/database"
+	"github.com/blizardinka/BattleHelperWebApp/pkg/internal"
 
 	"github.com/FuzzyStatic/blizzard/v2"
 	// "github.com/FuzzyStatic/blizzard/v2/hsgd"
 )
 
 var (
-	clientID		string = internal.ClientID
-	clientSecret	string = internal.ClientSecret
-	blizz			*blizzard.Client
-)	
+	clientID     string = internal.ClientID
+	clientSecret string = internal.ClientSecret
+	blizz        *blizzard.Client
+)
 
 // func init() {
 // 	// clientID = os.Getenv("8a416153c3354c6eb59cd0aed8d11829")

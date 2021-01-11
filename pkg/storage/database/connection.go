@@ -2,17 +2,27 @@ package database
 
 import (
 	"database/sql"
+
+	"github.com/blizardinka/BattleHelperWebApp/pkg/internal"
+
 	//A MySQL-Driver for Go's database/sql package
 	_ "github.com/go-sql-driver/mysql"
 )
 
-// TestConection is 
-func TestConection() {
+var (
+	dbVendor   = internal.DBVendor
+	dbUserName = internal.DBUserName
+	dbPasswort = internal.DBPasswort
+	dbTable    = internal.DBTable
+)
+
+// UpdateDatabase is
+func UpdateDatabase() {
 
 	// Open up our database connection.
 	// I've set up a database on my local machine using phpmyadmin.
 	// The database is called testDb
-	db, err := sql.Open("mysql", "root:ffff000000ff@/BattleHelper")
+	db, err := sql.Open(dbVendor, dbUserName+":"+dbPasswort+"@/"+dbTable)
 
 	// if there is an error opening the connection, handle it
 	if err != nil {
